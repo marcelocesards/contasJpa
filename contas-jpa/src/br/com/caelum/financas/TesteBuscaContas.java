@@ -14,6 +14,8 @@ public class TesteBuscaContas {
 		
 		System.out.println(conta.getTitular());
 		
+		conta.setTitular("Joao Ferreira");
+		
 		em.getTransaction().commit();
 		em.close();
 	}

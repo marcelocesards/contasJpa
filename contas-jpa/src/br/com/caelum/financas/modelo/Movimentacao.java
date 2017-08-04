@@ -48,11 +48,11 @@ public class Movimentacao {
 		this.valor = valor;
 	}
 
-	public TipoMovimentacao getTipo() {
+	public TipoMovimentacao getTipoMovimentacao() {
 		return tipo;
 	}
 
-	public void setTipo(TipoMovimentacao tipo) {
+	public void setTipoMovimentacao(TipoMovimentacao tipo) {
 		this.tipo = tipo;
 	}
 
@@ -64,11 +64,11 @@ public class Movimentacao {
 		this.data = data;
 	}
 
-	public String getEscricao() {
+	public String getDescricao() {
 		return escricao;
 	}
 
-	public void setEscricao(String escricao) {
+	public void setDescricao(String escricao) {
 		this.escricao = escricao;
 	}
 

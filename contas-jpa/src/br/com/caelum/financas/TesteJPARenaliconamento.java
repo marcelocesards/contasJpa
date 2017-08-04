@@ -21,8 +21,8 @@ public class TesteJPARenaliconamento {
 		Movimentacao movimentacao = new Movimentacao();
 		
 		movimentacao.setData(Calendar.getInstance());
-		movimentacao.setEscricao("churrascaria");
-		movimentacao.setTipo(TipoMovimentacao.SAIDA);
+		movimentacao.setDescricao("churrascaria");
+		movimentacao.setTipoMovimentacao(TipoMovimentacao.SAIDA);
 		movimentacao.setValor(new BigDecimal("200.00"));
 		movimentacao.setConta(conta);
 		EntityManager manager = new JPAUtil().getEntityManager();
